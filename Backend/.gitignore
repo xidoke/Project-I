@@ -1,0 +1,27 @@
+# Dependencies
+/node_modules
+
+# Build files
+/dist
+/build
+
+# Environment variables
+.env
+.env.production
+
+# Editor configuration
+.vscode
+
+*.sublime*
+
+# Logs and databases
+/*.log
+/db.sqlite
+/db/*.sqlite
+
+# Temporary files
+.DS_Store
+Thumbs.db
+
+# Image uploads (if you store uploads in your repository)
+/uploads
