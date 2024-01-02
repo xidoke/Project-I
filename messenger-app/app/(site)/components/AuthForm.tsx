@@ -63,8 +63,8 @@ const AuthForm = () => {
             }
 
             if (callback?.ok) {
+              toast.success('Logged in!')
               router.push('/conversations')
-              toast.success('Logged in')
             }
           })
           .catch(() => toast.error('Something went wrong!'))
@@ -82,8 +82,8 @@ const AuthForm = () => {
             }
 
             if (callback?.ok) {
+              toast.success('Logged in!')
               router.push('/conversations')
-              toast.success('Logged in')
 
             }
           })
@@ -101,8 +101,8 @@ const AuthForm = () => {
           }
 
           if (callback?.ok) {
+            toast.success('Logged in!')
             router.push('/conversations')
-            toast.success('Logged in')
 
           }
         })
